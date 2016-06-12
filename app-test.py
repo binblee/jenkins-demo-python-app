@@ -34,7 +34,7 @@ class FlaskBookshelfTests(unittest.TestCase):
         result = self.app.get('/') 
 
         # assert the response data
-        self.assertEqual(result.data, "Hello World!!") 
+        self.assertEqual(result.data, "Hello Aliyun Container Service!") 
 
 # runs the unit tests in the module
 if __name__ == '__main__':
